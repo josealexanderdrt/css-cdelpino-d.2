@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Frijole&display=swap");
+
+body{
+    background-image: url(../imgs/nyarla.jpg); 
+    background-size: cover;
+}
+
+h1{
+    font-size: 10rem;
+    font-family: 'Frijole', cursive;
+    color: rgba(252, 0, 0, 0.997);
+    margin-top: 0%;
+}

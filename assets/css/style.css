@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+body {
+  background-image: url(../imgs/seabackground.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.header {
+  background-image: url(../imgs/banner-cthulhu-mythos.png); opacity: 100%;
+  background-size:cover;
+  background-color:rgba(43, 177, 250, 0.77);
+  background-position:left;
+  background-repeat: no-repeat;
+  border: 0.5rem solid rgba(17, 84, 85, 0.868);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-family:'Rubik Glitch', cursive;
+  font-size: 5rem;
+  color: #1efad2db;
+  margin: 1rem;
+  text-align: center;
+}
+
+h2,
+h3 {
+  margin: 3rem, 0, 1.5rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: rgba(0, 255, 255, 0.864);
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(82, 185, 151);
+  text-align: center;
+  font-weight: 800;
+}
+
+.product table {
+  margin:auto;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.product thead {
+  background-color: #182d48d7;
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.product th {
+  border: 4px solid;
+  color: aliceblue;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #52c7b1d7;
+}
+
+.product td {
+  border: 4px solid #52c7b1d7;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.product img {
+  height: 30%;
+  width: 30%;
+  background-color:rgba(31, 31, 65, 0.399);
+}
+
+.product img:hover{
+  transform: scale(1.2);
+}
+
+.footer {
+  background-color: rgba(13, 123, 86, 0.736);
+  color: antiquewhite;
+  font-size: 1.5rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 1rem, 0rem;
+  margin: 3rem, 0rem;
+  border: solid 4px #52c7b1d7;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(156, 223, 208);
+  font-size: 1.5rem;
+}
+
+.footer img {
+  width: 3rem;
+  margin: 0, 0.5rem;
+}
+
+.footer a:hover {
+  color: rgb(240, 159, 93);
+}
